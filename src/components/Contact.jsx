@@ -3,9 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="kontakt" className="max-w-[1140px] m-auto w-full p-4 py-16">
-      <h2 className="text-center text-gray-800">
-        Sende Sie uns eine Nachricht
-      </h2>
+      <h2 className="text-center text-gray-800">Kontaktformular</h2>
       <p className="text-center text-gray-700 py-2">
         Wir sind immer für Sie da!
       </p>
@@ -59,7 +57,7 @@ const Contact = () => {
               maxLength={500}
               required
             ></textarea>
-            <button className="col-span-2 m-2">Senden</button>
+            <button className="col-span-2 m-2">Absenden</button>
           </div>
         </form>
       </div>

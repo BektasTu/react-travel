@@ -3,13 +3,15 @@ import Activities from "./components/Activities";
 import Background from "./components/Background";
 import Booking from "./components/Booking";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import NavBar from "./components/NavBar";
 import TopBar from "./components/TopBar";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div>
+    <>
       <TopBar />
       <NavBar />
       <Background />
@@ -17,7 +19,9 @@ function App() {
       <Booking />
       <Gallery />
       <Contact />
-    </div>
+      <Footer />
+      <ScrollToTop />
+    </>
   );
 }
 
